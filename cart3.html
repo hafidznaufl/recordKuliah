@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Cart</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; color: darkslategray;">
+    <header style="background-color: powderblue">
+
+        <nav style="display: flex; align-items: center;">
+            <a href="#" style="margin: 30px;">Site Name</a>
+        <div style="margin-top: 50px;">
+            <a href="#" style="margin: 40px;">Category 1</a>
+            <a href="#" style="margin: 40px;">Category 2</a>
+            <a href="#" style="margin: 40px;">Category 3</a>
+        </div>
+        <div style="margin-left: 100px;">
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-cart-fill "></i> Cart (1)</a>
+        </div>
+        </nav>
+    </header>
+
+        <main>
+            <h2>Your Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="item">
+                            <img src="img/hhh.jpg" alt="T-Shit V neck">
+                            <div>
+                                <h4>Ventela Shoes</h4>
+                                <p> Size :
+                                    <select name="size" id="size">
+                                        <option value="41">41</option>
+                                        <option value="42">42</option>
+                                        <option value="43">43</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </td>
+                        <td><b>$40.00</b></td>
+                        <td><input type="number" name="dd" id="dd"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="text-right">
+                        <td colspan="3">
+                            Subtotal <b>$40.00</b>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table><hr>
+
+            <h4>Summary (1 item)</h4>
+            <table class="total-table">
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$40.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shopping</td>
+                        <td>$4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Est. Taxes</td>
+                        <td>$1.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <hr><td>Total</td>
+                        <td>$45.00</td>
+                    </tr>
+                </tfoot>
+            </table><hr>
+            <button type="submit">Checkout</button>
+
+</body>
+</html>
